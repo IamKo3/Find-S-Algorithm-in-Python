@@ -1,20 +1,15 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 27 19:36:35 2018
 
-@author: K
-"""
 from ast import literal_eval
 
 h=['phi','phi','phi','phi','phi','phi'] #most specific
 
 
 #Training Data from a file
-with open('C:/Users/K/data.txt') as f:  #path of file
+with open('data.txt') as f:  #path of file
     data = [list(literal_eval(line)) for line in f]
 
  
-#l=['Rainy', 'Warm', 'Normal', 'Strong', 'Warm', 'Same', 'Yes']
+
     
 
 def consistent(h,d):
