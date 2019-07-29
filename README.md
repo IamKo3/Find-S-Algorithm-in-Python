@@ -1,4 +1,5 @@
 # Find-S-Algorithm-in-Python
+<p>
 <br>Program reads the data set from data.txt.
 <br>Data instances are stored in the form of list of lists.
 <br>Data from data.txt is read as string.
@@ -7,3 +8,4 @@
 <br>Therefore, to read list as list itself from a file, we make use of <B>literal_eval</B> package in Python.
 <br>
  <br>Python Version- 3.6
+</p>
